@@ -1,0 +1,145 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 38rem;
+    margin: auto;
+    background-color: #347deb;
+    padding: 1rem;
+    color: #030538;
+    position: relative;
+}
+
+.form-container {
+    padding: 0 10px;
+    margin-bottom: 50px;
+    
+}
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-element-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.form-element input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 0;
+    border-radius: 5px;
+    transition: border 2s;
+}
+.form-element input:focus {
+    outline: none;
+}
+.form-element.error input {
+   border-color:  #e74c3c;
+}
+.form-element small {
+    color: wheat;
+    visibility: hidden;
+    font-weight: bold;
+}
+.form-element.error small {
+    visibility: visible;
+}
+.form-element {
+    margin-bottom: 1.5rem;
+}
+.form-element label {
+    display: block;
+}
+
+ .outcome {
+    position: absolute;
+    top: 170px;
+    right: 100px;
+    
+    visibility: hidden;
+}
+.outcome.error {
+    color: #8c2d0a;
+    visibility: visible;
+}
+.outcome.success {
+    color: #0eeb5b;
+    visibility: visible;
+}
+.date-container {
+    display: flex;
+}
+.date-element {
+    margin-right:  1.5rem;
+}
+
+.date-element label{
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: center;
+}
+.date-element select {
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+}
+
+.btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #b938e0;
+    color: #fff;
+    cursor: pointer;
+    border: 0.1rem solid #00909e;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    background-color: #34d5eb;
+    align-items: center;
+    margin: 10px 5px;
+    padding: 0  10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.task-desc h3{
+    margin: 0;
+}
+
+.task-icons {
+    
+}
+.icon {
+    border-radius: 5px;
+}
+
+
+

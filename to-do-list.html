@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My To do List</title>
+        <script
+            src="https://kit.fontawesome.com/c7a040d31f.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="styles/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-container">
+                <h2 class="heading">Add New</h2>
+                <form action="" class="form" id="form">
+                    <div class="form-element-container">
+                        <div class="form-element">
+                            <input
+                                class="form-input"
+                                id="form-input"
+                                placeholder="What is to be done"
+                                type="text"
+                            />
+                            <small>hhjh</small>
+                        </div>
+                       
+
+                        <div class="date-container" id="due-date">
+                            <div class="date-element">
+                                <label for="">yy</label>
+                                <select name="" id="year">
+                            
+                                </select>
+                            </div>
+
+                            <div class="date-element"  id="month-div">
+                                <label for="mm">mm</label>
+                                <select name="" id="month">
+                                </select>
+                            </div>
+
+                            <div class="date-element" id="day-div">
+                                <label for="dd">dd</label>
+                                <select name="" id="day">
+                                    
+                                </select>
+                            </div>
+                            
+                           
+                        </div>
+                    </div>
+                    <input class="btn" id="add-new" type="submit" value="Add" />
+                </form>
+                <div class="outcome" id="outcome">Outcome</div>
+            </div>
+            <div class="plans-container" id="plans-container">
+                <h2>My Plans</h2>
+                <div class="tasks" id="tasks">
+                    
+                   
+                </div>
+            </div>
+        </div>
+
+        <script src="./to-do-list.js"></script>
+    </body>
+</html>
